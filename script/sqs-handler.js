@@ -3,7 +3,7 @@ console.log("hello javascript")
 	var URL1 = 'https://mx07ysh8ib.execute-api.us-east-1.amazonaws.com/prod/vodostack'
  
 console.log("URL1 = "+URL1) 
-$('#contact-form').submit(function (event) {
+$('#submit_go').click(function (event) {
   console.log("test script");
 //  event.preventDefault();
  
