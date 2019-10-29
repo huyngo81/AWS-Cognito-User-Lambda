@@ -42,7 +42,7 @@ $('#submit_go').click(function (event) {
 								//result = msg;
 								obj1 = JSON.parse(result);
 								//console.log(result);
-								result_html="<div class="alert alert-success">Submit failed</div>";					
+								result_html='<div class="alert alert-success">Submit failed</div>';					
 							
 								
 							}
