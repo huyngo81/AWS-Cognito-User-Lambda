@@ -42,13 +42,7 @@ $('#submit_go').click(function (event) {
 								//result = msg;
 								obj1 = JSON.parse(result);
 								//console.log(result);
-								result_html="<ul class='check-list'><span class='text-black-highlight'>Sản Phẩm Khuyến Mãi</span>";
-							
-							for (var j=0;j<obj1.length;j++)
-							  result_html=result_html + "<li>" +obj1[j].prod_name+ " Giá: "+obj1[j].price.gia_khuyen_mai+"VND</li>";
-							
-							
-							result_html=result_html+"</ul>";
+								result_html="<div class="alert alert-success">Submit failed</div>";					
 							
 								
 							}
